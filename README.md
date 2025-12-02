@@ -218,7 +218,8 @@ Desenvolvido em React, consumindo a API via HTTP.
 ## 5.	Cadastro/edição de Animais
 -	Inclusão e alteração com upload de foto para o Cloudinary via método UploadImage do AnimalController. A URL da imagem é salva no campo UrlImagem. 
 <img width="1042" height="553" alt="Image" src="https://github.com/user-attachments/assets/5bcd2fe9-1fce-4c8f-adb3-1fc30d524fc2" />
-## 6.	Cadastro de Consultas/Serviços
+
+##  6.	Cadastro de Consultas/Serviços
 -	Consome:
 ````
 -	POST /Consulta/Criar
@@ -235,11 +236,18 @@ Desenvolvido em React, consumindo a API via HTTP.
 -	“Consultas com Valor Acima da Média”
 -	“Animais Sem Registro de Consultas”
 ````
+<img width="1052" height="699" alt="Image" src="https://github.com/user-attachments/assets/0e49a785-257b-47a0-91ed-f51cb208cac9" />
+
+<img width="1049" height="714" alt="Image" src="https://github.com/user-attachments/assets/883c65d5-f841-48d9-8cd9-86bb9f7b46e7" />
+
+<img width="1278" height="940" alt="Image" src="https://github.com/user-attachments/assets/e2e9459e-05f3-4f22-815c-ecae2b8c9068" />
 -	Seção Faturamento:
 ````
 -	Filtros de período (Dia/Semana/Mês), data-base e categoria (todos, veterinário, banho e tosa);
 -	Botão “Buscar Faturamento” chama GET /Relatorios/Faturamento.
 ````
+
+<img width="2523" height="852" alt="Image" src="https://github.com/user-attachments/assets/b586fcf8-ea07-4cbe-b4a5-77dba5db16c1" />
 
 # Consultas SQL Complexas
 
