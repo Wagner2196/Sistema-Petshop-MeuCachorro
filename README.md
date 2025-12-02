@@ -190,3 +190,10 @@ RelatoriosController
 ````
 #### - Frontend Web
 Desenvolvido em React, consumindo a API via HTTP.
+
+# Telas principais
+ ## 1.Tela inicial (Home)
+ <img width="1190" height="938" alt="Image" src="https://github.com/user-attachments/assets/f52a9af9-309c-4ea0-9d6a-f127201075ba" />
+
+
+
