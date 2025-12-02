@@ -1,0 +1,81 @@
+.pagina_conteudo {
+    padding: 50px;
+    width: 100%;
+    min-height: 100vh; /* Ocupa no mínimo a tela, mas cresce junto */
+    
+    background-image: url("../../assets/fundo02.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y; /* Repete verticalmente para acompanhar a página */
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+}
+.titulo_branco {
+    color: white;
+    font-weight: bold;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+.subtitulo_branco {
+    color: white;
+    font-weight: bold;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+.pagina_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa_relatorios {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(248, 248, 248, 0.1);
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.botao {
+    padding: 10px 15px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #2980b9;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.select, .input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.resultado {
+    margin-top: 30px;
+}
+
+.json_box {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 6px;
+}

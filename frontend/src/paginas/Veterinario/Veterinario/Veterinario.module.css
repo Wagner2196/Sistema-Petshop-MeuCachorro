@@ -1,0 +1,81 @@
+.pagina_conteudo {
+    width: 100%;
+    height: 100vh;
+    /* Ocupa a tela inteira */
+    background-image: url("../../../assets/fundo05.png");
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* A imagem de fundo ficará fixa */
+
+    display: flex;
+    flex-direction: column;
+    color: white; /* Faz todos os textos ficarem brancos */
+    padding: 50px;
+}
+
+/* Estilização do título */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Adiciona sombra */
+}
+
+.tabela {
+    margin-top: 30px;
+}
+
+.tabela_corpo svg {
+    color: #212529;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.botao_editar svg:hover {
+    color: #f08830;
+}
+
+.botao_deletar {
+    border: none;
+    background: none;
+}
+
+.botao_deletar svg:hover {
+    color: #e4504b;
+}
+
+.pagina_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Para alinhar verticalmente */
+
+    /* Estilização do título */
+    h1 {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+    }
+
+    /* Estilização do botão */
+    .botao_novo_usuario {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #f08830;
+    }
+}
+.filtro_data {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.input_filtro {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

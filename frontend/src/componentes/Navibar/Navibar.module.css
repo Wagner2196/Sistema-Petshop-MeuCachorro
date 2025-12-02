@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #007bff; /* Azul */
+  background-image: url('../../assets/topBar.jpg'); /* Imagem de fundo */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.3));
+  z-index: 1000;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin-right: 20px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  color: #ddd;
+}
+
+/* Estilizando o botão de login */
+.loginButton {
+  background-color: #ffffffea;
+  color: #007bff;
+  border: 2px solid #fff;
+  padding: 3px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.loginButton:hover {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #fff;
+}

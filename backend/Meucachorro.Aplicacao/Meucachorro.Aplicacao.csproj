@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+  <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <ProjectReference Include="..\Meucachorro.Repositorio\Meucachorro.Repositorio.csproj" />
+    <ProjectReference Include="..\Meucachorro.Dominio\Meucachorro.Dominio.csproj" />
+     <ProjectReference Include="..\Meucachorro.Servicos\Meucachorro.Servicos.csproj" />
+
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+</Project>

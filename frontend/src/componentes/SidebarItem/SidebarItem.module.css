@@ -1,0 +1,50 @@
+.sidebar_item {
+    text-decoration: none;
+    display: flex;
+    margin: 20px;
+    color: darkblue; 
+
+    & svg {
+        width: 30px;
+        height: 44px;
+    }
+
+    & .texto_link {
+        margin: 10px;
+        font-size: 20px;
+        color: darkblue; /* Aplique a cor darkblue aqui no texto */
+    }
+
+    &:hover {
+        color: #f08830; /* Altere a cor do link ao passar o mouse */
+    }
+}
+/**/
+
+
+.sidebar_item svg {
+    width: 30px;
+    height: 44px;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.texto_link {
+    margin: 10px;
+    font-size: 20px;
+    color: darkblue; /* Cor inicial do texto */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar_item:hover {
+    color: #f08830; /* Altera a cor do link (texto e ícone) quando passar o mouse */
+}
+
+.sidebar_item:hover svg {
+    color: #f08830; /* Altera a cor do ícone ao passar o mouse */
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.sidebar_item:hover .texto_link {
+    color: #f08830; /* Altera a cor do texto ao passar o mouse */
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
+}

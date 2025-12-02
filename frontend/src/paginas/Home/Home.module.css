@@ -1,0 +1,107 @@
+.conteudo {
+  width: 100%;
+  min-height: 100vh; /* Ajustado para evitar corte de conteúdo */
+  background-image: url("../../assets/12.jpg");
+  background-size: 100%; /* Para cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+  background-attachment: fixed; /* Mantém o fundo fixo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+  text-align: left;
+}
+.titulo h2 {
+  font-size: 4rem !important; /* Aumenta a prioridade da regra */
+  color: white !important; /* Mantém a cor branca */
+  text-align: center; /* Centraliza o texto */
+  margin: 20px 0; /* Adiciona margens superior e inferior */
+  text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.texto {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  color: #f7f2f2;
+  border-radius: 15px;
+}
+
+.texto p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  line-height: 1.6;
+  border-radius: 15px;
+}
+
+.texto ul {
+  list-style: none;
+  padding: 0;
+}
+
+.texto ul li {
+  font-size: 1.1rem;
+  color: #f5f5f5;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.imagem {
+  width: 100%;
+  max-width: 3300px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 10px auto;
+}
+
+.imagemDireita {
+  width: 100%;
+  max-width: 3300px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+/* Rodapé */
+.rodape {
+  width: 70%;
+  background-color: #f5f5f5d8;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 15px; /* Arredonda apenas os cantos superiores */
+}
+
+.iconesRedes img {
+  width: 70px;
+  height: auto;
+  margin: 0 10px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagem,
+  .imagemDireita {
+    max-width: 250px;
+  }
+
+  .iconesRedes img {
+    width: 40px;
+  }
+}

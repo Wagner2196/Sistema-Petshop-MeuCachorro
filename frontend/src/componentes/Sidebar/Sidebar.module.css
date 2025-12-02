@@ -1,0 +1,48 @@
+.sidebar_conteudo {
+    background-color: rgba(255, 166, 0, 0.74);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 100%;  
+    box-shadow: 15px 0 10px rgba(0,0,0,0.2);
+}
+
+.pagina_conteudo {
+    margin-left: 230px;
+}
+
+@media (max-width: 700px){
+    .sidebar_conteudo {
+        width: 160px;
+    }
+
+    .pagina_conteudo {
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 500px){
+    .sidebar_conteudo {
+        display: none;
+    }
+
+    .pagina_conteudo {
+        margin-left: 0;
+    }
+}
+
+.sidebar_header {
+
+    & .logo {
+        width: 80%;
+        margin: 10%;
+    }
+
+    & .linha {
+        color: darkblue;
+        border-top: 2px solid darkblue; /* Engrossa a linha */
+    }
+
+    overflow-x: hidden;
+}

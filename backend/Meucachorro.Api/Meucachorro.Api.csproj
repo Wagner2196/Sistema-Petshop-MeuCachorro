@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Suas dependências normais -->
+    <PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
+    <PackageReference Include="dotenv.net" Version="3.2.1" />
+    <PackageReference Include="DotNetEnv" Version="3.1.1" />
+    
+    <!-- REMOVIDO: SQLite (não combina com SQL Server e quebra o modelo)
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.3" />
+    -->
+
+    <!-- ADICIONADO: SQL Server (o provider correto para o seu banco) -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Referências para os projetos corretos -->
+    <ProjectReference Include="..\Meucachorro.Aplicacao\Meucachorro.Aplicacao.csproj" />
+    <ProjectReference Include="..\Meucachorro.Dominio\Meucachorro.Dominio.csproj" />
+    <ProjectReference Include="..\Meucachorro.Repositorio\Meucachorro.Repositorio.csproj" />
+  </ItemGroup>
+
+</Project>

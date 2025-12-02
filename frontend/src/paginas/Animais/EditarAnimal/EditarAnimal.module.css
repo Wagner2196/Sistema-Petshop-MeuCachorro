@@ -1,0 +1,28 @@
+.pagina_conteudo {
+    width: 100%;
+    height: 100vh;
+    /* Ocupa a tela inteira */
+    background-image: url("../../../assets/fundo02.png");
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    color: white; /* Faz todos os textos ficarem brancos */
+    padding: 50px;
+
+}
+
+/* Estilização do título */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Adiciona sombra */
+}
+.imagem_animal {
+    max-width: 200px; /* Largura máxima da imagem */
+    height: auto; /* Manter a proporção */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
