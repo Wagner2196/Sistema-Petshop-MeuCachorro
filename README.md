@@ -2,7 +2,7 @@
 # MeuCachorro.com
 
 Seu sistema completo de gestão para petshops, onde você cadastra usuários, animais, consultas, serviços e ainda tem relatórios avançados e faturamento automático.
-
+<img width="1190" height="938" alt="Image" src="https://github.com/user-attachments/assets/f52a9af9-309c-4ea0-9d6a-f127201075ba" />
 # Banco de dados
 
 Banco de dados utilizado foi o SQLServer, modelo de Entidade Relacionamento: 
