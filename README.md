@@ -200,8 +200,11 @@ Desenvolvido em React, consumindo a API via HTTP.
 
 ## 2.	Tela de Login
 <img width="1277" height="946" alt="Image" src="https://github.com/user-attachments/assets/a6f1b0fb-6549-4795-b7fa-8dec581d625f" />
+
 ## 3.	Menu lateral (após login)
 <img width="231" height="537" alt="Image" src="https://github.com/user-attachments/assets/fef724c6-0fc4-41a8-9dde-37408ec13e71" />
+
+
 ## 4.	Cadastro/edição de Usuários
 - 	Usa os endpoints:
 ````
