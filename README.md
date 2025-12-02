@@ -7,7 +7,7 @@ Seu sistema completo de gestão para petshops, onde você cadastra usuários, an
 
 Banco de dados utilizado foi o SQLServer, modelo de Entidade Relacionamento: 
 
-
+![Image](https://github.com/user-attachments/assets/20fae620-8961-420e-b54e-f7af8189fb7e)
 
 # 🐾 Introdução
 
