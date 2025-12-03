@@ -242,6 +242,7 @@ Desenvolvido em React, consumindo a API via HTTP.
 
 <img width="1278" height="940" alt="Image" src="https://github.com/user-attachments/assets/e2e9459e-05f3-4f22-815c-ecae2b8c9068" />
 -	Seção Faturamento:
+  
 ````
 -	Filtros de período (Dia/Semana/Mês), data-base e categoria (todos, veterinário, banho e tosa);
 -	Botão “Buscar Faturamento” chama GET /Relatorios/Faturamento.
